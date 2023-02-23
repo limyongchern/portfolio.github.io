@@ -280,7 +280,7 @@ header{
 }
 
 .intro__image{
-    box-shadow:var(--bs)
+    box-shadow:var(--bs);
 }
 
 
@@ -307,7 +307,7 @@ header{
 
     .section__subtitle--intro{
         align-self:start;
-        grid-column:-1 /0;
+        grid-column:0 /1;
         grid-row:2;
         position:relative;
         width: calc(100% +1.5em);
@@ -430,6 +430,7 @@ header{
     overflow:hidden;
     margin: auto;
     border: none;
+    width: 407px;
      
 }
 
@@ -456,8 +457,8 @@ header{
 }
 
 .portfolio__img{
-    height: 30%;
-    width: 30%;
+    height: 300px;
+    width: 400px;
     position: absolute;
     margin-top: 60px;
 }
@@ -480,7 +481,6 @@ header{
 
 .item1{
     background-color: var(--clr-light);
-
 }
 
 .item2{
